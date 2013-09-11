@@ -6,5 +6,6 @@ namespace :test do
     Rake::Task['jslint'].invoke
     Rake::Task['rubocop'].invoke
     Rake::Task['brakeman'].invoke
+    Rake::Task['coveralls:push'].invoke
   end
 end
