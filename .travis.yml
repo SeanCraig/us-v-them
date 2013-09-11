@@ -1,0 +1,8 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: Saw9IIt5Amxf6luI5HF2QVlgNFmWIcmIg6vvs0xe4WQXWb4F8UtB50b/eoqZPM/APdekZgv53xaSsXrl9Xfu0kg0k5IRR8bLBGmWuEPqMV/Krxm3wXJd1JRXMfngTltZgQSsM/nG4uCEASOzsoPWZmGsiR9rV7DLUwpu7v4m+vI=
+  app:
+    master: us-v-them
+  on:
+    repo: NHSChoices/us-v-them
