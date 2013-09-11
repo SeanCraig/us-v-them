@@ -1,7 +1,9 @@
 require 'simplecov'
+require 'coveralls'
 SimpleCov.start do
   add_filter   '/spec'
   add_filter   '/features'
+  add_filter   '/vendor'
   coverage_dir 'reports/coverage'
 end
 

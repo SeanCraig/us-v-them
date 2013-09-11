@@ -15,9 +15,10 @@ gem 'unicorn'
 
 group :development, :test do
   gem 'mocha', require: false
-  gem 'rspec-rails', require: false
+  gem 'rspec-rails'
   gem 'cucumber-rails', require: false
   gem 'simplecov'
+  gem 'coveralls'
   gem 'headless'
   gem 'capybara-webkit'
   gem 'webmock', require: false
