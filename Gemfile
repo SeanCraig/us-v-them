@@ -18,7 +18,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'cucumber-rails', require: false
   gem 'simplecov'
-  gem 'coveralls'
+  gem 'coveralls', require: false
   gem 'headless'
   gem 'capybara-webkit'
   gem 'webmock', require: false
