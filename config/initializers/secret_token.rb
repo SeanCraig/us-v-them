@@ -9,4 +9,8 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-UsVThem::Application.config.secret_key_base = '0ed2ea470a1c99766b995c2d3815df558f63c45ba5a4cfba77a3228bb0e9f74aae29e7acba3e217755283c772b4928b913b2737dfaeece7d21f6dd42810043cc'
+UsVThem::Application.config.secret_key_base = ENV['SECRET_TOKEN'] || 'this_faked_secret_token_used_for_development_only'
+
+if !['development', 'test'].include? Rails.env
+  fail "You must set a secret token" if UsVThem::Application.config.secret_key_base == 'this_faked_secret_token_used_for_development_only'
+end
