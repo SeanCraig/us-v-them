@@ -1,5 +1,5 @@
 # Us v Them
-## Organise team sports and find teammates and opponents
+### Organise team sports and find teammates and opponents
 
 [![Build Status](https://travis-ci.org/NHSChoices/us-v-them.png?branch=release/alpha)](https://travis-ci.org/NHSChoices/us-v-them)
 [![Code Climate](https://codeclimate.com/github/NHSChoices/us-v-them.png)](https://codeclimate.com/github/NHSChoices/us-v-them)
