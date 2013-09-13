@@ -14,6 +14,7 @@ gem 'capistrano', group: :development
 gem 'unicorn'
 
 group :development, :test do
+  gem 'travis'
   gem 'mocha', require: false
   gem 'rspec-rails'
   gem 'cucumber-rails', require: false
