@@ -12,6 +12,8 @@ gem 'jquery-rails'
 
 gem 'capistrano', group: :development
 gem 'unicorn'
+gem 'id'
+gem "mongoid", github: 'mongoid/mongoid'
 
 group :development, :test do
   gem 'travis'
