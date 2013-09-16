@@ -1,0 +1,6 @@
+development:
+  sessions:
+    default:
+      database: usvthem
+      hosts:
+        - localhost:27017
