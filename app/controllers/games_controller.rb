@@ -1,3 +1,5 @@
+require './lib/date_time_attributes'
+
 class GamesController < ApplicationController
   before_action :set_game, only: [:show, :edit, :update, :destroy]
 
@@ -53,6 +55,7 @@ class GamesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def game_params
-      params.require(:game).permit(:sport, :location, :start)
+      DateTimeAttributes.new(params.require(:game).
+                         permit(:sport, :location, :start), :start).converted
     end
 end
