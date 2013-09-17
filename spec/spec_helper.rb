@@ -1,5 +1,6 @@
 require 'simplecov'
 require 'coveralls'
+
 SimpleCov.start do
   add_filter   '/spec'
   add_filter   '/vendor'
@@ -8,6 +9,5 @@ SimpleCov.start do
 end
 
 RSpec.configure do |config|
-  config.mock_with :mocha
   config.order = "random"
 end
