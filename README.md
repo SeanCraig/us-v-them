@@ -15,3 +15,5 @@ We're looking for quality, well-tested, eloquent code.
 Oh, and we like a nice clean git history and to see emojis in commit messages :satisfied:.
 
 Have fun!
+
+https://www.codeship.io/projects/0f294080-b409-0130-11d3-026c304593b7/status
